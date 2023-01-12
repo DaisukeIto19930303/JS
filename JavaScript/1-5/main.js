@@ -1,12 +1,6 @@
-
-for (let number = 1;number <= 100;number++ ) {
-    if(number % 3===0 && number % 5===0){
-        console.log("fizzbazz");
-    }else if(number % 3===0 ){
-        console.log("fizz");
-    }else if(number % 5===0){
-        console.log ("bazz");
-    }else{
-    console.log(number);
-    }
+function createJuice(fruits){
+    console.log(fruits+'を受け取りました。ジュースにして返します');
+    return fruits;
 }
+const i = createJuice('みかん');
+console.log(i + 'ジュースが届きました');
